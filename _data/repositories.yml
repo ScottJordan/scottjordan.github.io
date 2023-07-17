@@ -3,9 +3,9 @@ github_users:
   - DecisionMakingAI
 
 github_repos:
-  - DecisionMakingAI/DecisionMakingPolicies
-  - DecisionMakingAI/DecisionMakingUtils
-  - DecisionMakingAI/DecisionMakingEnvironments
-  - DecisionMakingAI/BenchmarkEnvironments
+  - DecisionMakingAI/DecisionMakingPolicies.jl
+  - DecisionMakingAI/DecisionMakingUtils.jl
+  - DecisionMakingAI/DecisionMakingEnvironments.jl
+  - DecisionMakingAI/BenchmarkEnvironments.jl
   - ScottJordan/EvaluationOfRLAlgs
   - ScottJordan/SafePolicyImprovementNonstationary
