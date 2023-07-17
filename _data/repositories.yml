@@ -1,6 +1,5 @@
 github_users:
   - ScottJordan
-  - DecisionMakingAI
 
 github_repos:
   - DecisionMakingAI/DecisionMakingPolicies.jl
