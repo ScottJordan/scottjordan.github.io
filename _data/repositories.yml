@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ScottJordan
+  - DecisionMakingAI
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - DecisionMakingAI/DecisionMakingPolicies
+  - DecisionMakingAI/DecisionMakingUtils
+  - DecisionMakingAI/DecisionMakingEnvironments
+  - DecisionMakingAI/BenchmarkEnvironments
+  - ScottJordan/EvaluationOfRLAlgs
+  - ScottJordan/SafePolicyImprovementNonstationary
