@@ -4,7 +4,8 @@ github_users:
 github_repos:
   - DecisionMakingAI/DecisionMakingPolicies.jl
   - DecisionMakingAI/DecisionMakingUtils.jl
-  - DecisionMakingAI/DecisionMakingEnvironments.jl
   - DecisionMakingAI/BenchmarkEnvironments.jl
+
+paper_repos:
   - ScottJordan/EvaluationOfRLAlgs
   - ScottJordan/SafePolicyImprovementNonstationary

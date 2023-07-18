@@ -1,34 +1,36 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Thomas":
+  - firstname: ["Philip", "Phil", "Phil S.", "Philip S."]
+    url: https://people.cs.umass.edu/~pthomas/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Chandak":
+  - firstname: ["Yash",]
+    url: https://yashchandak.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Cohen":
+  - firstname: ["Daniel", "Daniel S."]
+    url: https://dscohen.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Kostas": 
+  - firstname: ["James", "James E."]
+    url: https://people.cs.umass.edu/~jekostas/jekostas.html
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"White":
+  - firstname: ["Martha"]
+    url: https://webdocs.cs.ualberta.ca/~whitem/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Castro da Silva":
+  - firstname: ["Bruno"]
+    url: https://people.cs.umass.edu/~bsilva/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Silva":
+  - firstname: ["Bruno", "Bruno Castro da", "Bruno Castro"]
+    url: https://people.cs.umass.edu/~bsilva/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Gupta":
+  - firstname: ["Dhawal"]
+    url: https://dhawgupta.com/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Yang":
+  - firstname: ["Wenhao"]
+    url: https://yangwenhaosms.github.io/
+

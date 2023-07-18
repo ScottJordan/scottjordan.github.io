@@ -13,7 +13,8 @@
                   a Generative Model},
   journal      = {CoRR},
   volume       = {abs/2302.01248},
-  year         = {2023}
+  year         = {2023},
+  arxiv        = {2302.01248},
 }
 
 @article{DBLP:journals/corr/abs-2305-09838,
@@ -28,7 +29,8 @@
   title        = {Coagent Networks: Generalized and Scaled},
   journal      = {CoRR},
   volume       = {abs/2305.09838},
-  year         = {2023}
+  year         = {2023},
+  arxiv        = {2305.09838},
 }
 
 @inproceedings{DBLP:conf/icml/KostasCJTT21,
@@ -43,7 +45,11 @@
   volume       = {139},
   pages        = {5764--5773},
   publisher    = {{PMLR}},
-  year         = {2021}
+  year         = {2021},
+  html         = {https://proceedings.mlr.press/v139/kostas21a.html},
+  pdf          = {https://people.cs.umass.edu/~pthomas/papers/Kostas2021.pdf},
+  abstract     = {We present several classes of reinforcement learning algorithms that safely generalize to Markov decision processes (MDPs) not seen during training. Specifically, we study the setting in which some set of MDPs is accessible for training. The goal is to generalize safely to MDPs that are sampled from the same distribution, but which may not be in the set accessible for training. For various definitions of safety, our algorithms give probabilistic guarantees that agents can safely generalize to MDPs that are sampled from the same distribution but are not necessarily in the training set. These algorithms are a type of Seldonian algorithm (Thomas et al., 2019), which is a class of machine learning algorithms that return models with probabilistic safety guarantees for user-specified definitions of safety.},
+  abbr         = {ICML},  
 }
 
 @inproceedings{DBLP:conf/icml/JordanCCZT20,
@@ -58,7 +64,13 @@
   volume       = {119},
   pages        = {4962--4973},
   publisher    = {{PMLR}},
-  year         = {2020}
+  year         = {2020},
+  arxiv        = {2006.16958},
+  html         = {http://proceedings.mlr.press/v119/jordan20a.html},
+  slides       = {https://icml.cc/media/icml-2020/Slides/6301.pdf},
+  abstract     = {Performance evaluations are critical for quantifying algorithmic advances in reinforcement learning. Recent reproducibility analyses have shown that reported performance results are often inconsistent and difficult to replicate. In this work, we argue that the inconsistency of performance stems from the use of flawed evaluation metrics. Taking a step towards ensuring that reported results are consistent, we propose a new comprehensive evaluation methodology for reinforcement learning algorithms that produces reliable measurements of performance both on a single environment and when aggregated across environments. We demonstrate this method by evaluating a broad class of reinforcement learning algorithms on standard benchmark tasks. },
+  code         = {https://github.com/ScottJordan/EvaluationOfRLAlgs},
+  abbr         = {ICML},
 }
 
 @inproceedings{DBLP:conf/nips/ChandakJTWT20,
@@ -69,7 +81,12 @@
                   Philip S. Thomas},
   title        = {Towards Safe Policy Improvement for Non-Stationary MDPs},
   booktitle    = {NeurIPS},
-  year         = {2020}
+  year         = {2020},
+  arxiv        = {2010.12645},
+  html         = {https://proceedings.neurips.cc//paper_files/paper/2020/hash/680390c55bbd9ce416d1d69a9ab4760d-Abstract.html},
+  code         = {https://github.com/ScottJordan/SafePolicyImprovementNonstationary},
+  abstract     = {Many real-world sequential decision-making problems involve critical systems with financial risks and human-life risks. While several works in the past have proposed methods that are safe for deployment, they assume that the underlying problem is stationary. However, many real-world problems of interest exhibit non-stationarity, and when stakes are high, the cost associated with a false stationarity assumption may be unacceptable. We take the first steps towards ensuring safety, with high confidence, for smoothly-varying non-stationary decision problems. Our proposed method extends a type of safe algorithm, called a Seldonian algorithm, through a synthesis of model-free reinforcement learning with time-series analysis. Safety is ensured using sequential hypothesis testing of a policy’s forecasted performance, and confidence intervals are obtained using wild bootstrap.},
+  abbr         = {NeurIPS},
 }
 
 
@@ -85,7 +102,11 @@
   volume       = {97},
   pages        = {941--950},
   publisher    = {{PMLR}},
-  year         = {2019}
+  year         = {2019},
+  arxiv        = {1902.00183},
+  html         = {http://proceedings.mlr.press/v97/chandak19a.html},
+  abstract     = {Most model-free reinforcement learning methods leverage state representations (embeddings) for generalization, but either ignore structure in the space of actions or assume the structure is provided a priori. We show how a policy can be decomposed into a component that acts in a low-dimensional space of action representations and a component that transforms these representations into actual actions. These representations improve generalization over large, finite action sets by allowing the agent to infer the outcomes of actions similar to actions already taken. We provide an algorithm to both learn and use action representations and provide conditions for its convergence. The efficacy of the proposed method is demonstrated on large-scale real-world problems. },
+  abbr         = {ICML},
 }
 
 @inproceedings{DBLP:conf/ictir/CohenJC19,
@@ -97,7 +118,9 @@
   booktitle    = {{ICTIR}},
   pages        = {19--26},
   publisher    = {{ACM}},
-  year         = {2019}
+  year         = {2019},
+  pdf          = {https://ciir-publications.cs.umass.edu/getpdf.php?id=1337},
+  abbr         = {ICTIR},
 }
 
 @article{DBLP:journals/corr/abs-1906-03063,
@@ -109,17 +132,20 @@
   title        = {Classical Policy Gradient: Preserving Bellman's Principle of Optimality},
   journal      = {CoRR},
   volume       = {abs/1906.03063},
-  year         = {2019}
+  year         = {2019},
+  arxiv        = {1906.03063},
+  abstract     = {We propose a new objective function for finite-horizon episodic Markov decision processes that better captures Bellman's principle of optimality, and provide an expression for the gradient of the objective.}
 }
 
-@article{DBLP:journals/corr/abs-1806-03790,
+@inproceedings{DBLP:journals/corr/abs-1806-03790,
   author       = {Daniel Cohen and
                   Scott M. Jordan and
                   W. Bruce Croft},
   title        = {Distributed Evaluations: Ending Neural Point Metrics},
-  journal      = {CoRR},
-  volume       = {abs/1806.03790},
-  year         = {2018}
+  booktitle    = {ACM SIGIR - LND4IR Workshop},
+  year         = {2018},
+  arxiv        = {1806.03790},
+  abstract     = {We propose a new evaluation metric for information retrieval that is based on the cumulative distribution of performance across a set of queries. This metric is more robust to noise than existing metrics, and can be used to compare systems in a statistically principled way.}
 }
 
 @article{bartlett2021impact,
@@ -130,15 +156,21 @@
   number={4},
   pages={1183--1195},
   year={2021},
-  publisher={American Physiological Society Rockville, MD}
+  publisher={American Physiological Society Rockville, MD},
+  abstract = {Near-infrared diffuse correlation spectroscopy (DCS) is increasingly used to study relative changes in skeletal muscle blood flow. However, most diffuse correlation spectrometers assume that tissue optical properties-such as absorption ($\mu_a$) and reduced scattering ($\mu_s'$) coefficients-remain constant during physiological provocations, which is untrue for skeletal muscle. Here, we interrogate how changes in tissue $\mu_a$ and $\mu_s'$ affect DCS calculations of blood flow index (BFI). We recalculated BFI using raw autocorrelation curves and $\mu_a/\mu_s'$ values recorded during a reactive hyperemia protocol in 16 healthy young individuals. First, we show that incorrectly assuming baseline $\mu_a$ and $\mu_s'$ substantially affects peak BFI and BFI slope when expressed in absolute terms (cm2/s, P < 0.01), but these differences are abolished when expressed in relative terms ($\%$ baseline). Next, to evaluate the impact of physiologic changes in $\mu_a$ and $\mu_s'$, we compared peak BFI and BFI slope when $\mu_a$ and $\mu_s'$ were held constant throughout the reactive hyperemia protocol versus integrated from a 3-s rolling average. Regardless of approach, group means for peak BFI and BFI slope did not differ. Group means for peak BFI and BFI slope were also similar following ad absurdum analyses, where we simulated supraphysiologic changes in $\mu_a/\mu_s'$. In both cases, however, we identified individual cases where peak BFI and BFI slope were indeed affected, with this result being driven by relative changes in $\mu_a$ over $\mu_s'$. Overall, these results provide support for past reports in which $\mu_a/\mu_s'$ were held constant but also advocate for real-time incorporation of $\mu_a$ and $\mu_s'$ moving forward. NEW & NOTEWORTHY We investigated how changes in tissue optical properties affect near-infrared diffuse correlation spectroscopy (NIR-DCS)-derived indices of skeletal muscle blood flow (BFI) during physiological provocation. Although accounting for changes in tissue optical properties has little impact on BFI on a group level, individual BFI calculations are indeed impacted by changes in tissue optical properties. NIR-DCS calculations of BFI should therefore account for real-time, physiologically induced changes in tissue optical properties whenever possible. },
+  html = {https://journals.physiology.org/doi/full/10.1152/japplphysiol.00857.2020},
+  code = {https://github.com/ScottJordan/dcs_bfi_fitting},
 }
 
 @article{jordan2022scientific,
   title={Scientific Experimentation for Reinforcement Learning},
   author={Jordan, Scott M.},
-  journal = {Deep Reinforcement Learning Workshop at NeurIPS},
-     year = 2022,
-    month = Dec,
+  journal = {Opinion Talk - Deep Reinforcement Learning Workshop at NeurIPS},
+  year = 2022,
+  month = Dec,
+  html = {https://slideslive.com/38994681/scientific-experiments-in-reinforcement-learning},
+  slides = {opiniontalk.pdf},
+  pdf = {Opinion_Talk_Scientific_Experiments.pdf}
 }
 
 @article{jordan2019rldm,
@@ -155,6 +187,8 @@ author = {{Jordan}, Scott M. and Chandak, Yash and Zhang, Mengxue and {Cohen}, D
   journal = {Critiquing and Correcting Trends in Machine Learning NeurIPS Workshop},
      year = 2018,
     month = Dec,
+      pdf = {https://all.cs.umass.edu/pubs/2018/Jordan et al - Distributiona Evaluation.pdf},
+ abstract = {When using only reported empirical results, it has become difficult to identify machine learning methods that provide meaningful advancement. One reason is that results are commonly only reported using well-tuned models, and thus represent an optimistic evaluation of performance. In this work, we propose a new framework for evaluating algorithms that presents both the performance when the system is well-tuned, as well as the difficulty of tuning the algorithm. This is achieved by considering the distribution of performances that result when applying the method with different hyper-parameter settings (e.g., different step sizes and network structures). Using common benchmark tasks in supervised and reinforcement learning, we demonstrate how this evaluation framework can both evaluate an algorithm’s robustness to hyper-parameter selection and identify new areas of improvement.}
 }
 
 @article{ku_jordan_2017,
@@ -162,4 +196,15 @@ author = {{Jordan}, Scott M. and Chandak, Yash and Zhang, Mengxue and {Cohen}, D
   author={Ku, Li Yang and Jordan, Scott M. and Badger, Julia and Learned-Miller, Erik and Grupen, Rod},
   journal={International Symposium on Experimental Robotics (ISER)},
   year={2018},
+  html = {https://link.springer.com/chapter/10.1007/978-3-030-33950-0_35},
+  abstract = {We introduce a framework where visual features, describing the interaction among a robot hand, a tool, and an assembly fixture, can be learned efficiently using a small number of demonstrations. We illustrate the approach by torquing a bolt with the Robonaut-2 humanoid robot using a handheld ratchet. The difficulties include the uncertainty of the ratchet pose after grasping and the high precision required for mating the socket to the bolt and replacing the tool in the tool holder. Our approach learns the desired relative position between visual features on the ratchet and the bolt. It does this by identifying goal offsets from visual features that are consistently observable over a set of demonstrations. With this approach we show that Robonaut-2 is capable of grasping the ratchet, tightening a bolt, and putting the ratchet back into a tool holder. We measure the accuracy of the socket-bolt mating subtask over multiple demonstrations and show that a small set of demonstrations can decrease the error significantly.},
+  pdf = {https://people.cs.umass.edu/~elm/papers/RSSWLfD18.pdf}
+}
+
+@phdthesis{jordan2023rigorous,
+  title={Rigorous Experimentation For Reinforcement Learning},
+  author={Jordan, Scott M},
+  school= {University of Massachusetts Amherst},
+  year={2023},
+  html={https://scholarworks.umass.edu/dissertations_2/2760/}
 }
