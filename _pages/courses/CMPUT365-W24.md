@@ -51,23 +51,16 @@ Instruction Team:
 
 
 
-Course Calendar (may change and will be updated as the course progresses):
+Course Calendar (will be updated as the course progresses):
 
 
-| Week | Date | Topic | Modules | In Class | Assignment | Quiz | 
+| Week | Date | Topic | Deadlines | Misc |  
 | ---: |      | :---  | ---     | ---      | ---        |  --- |
-| 1    | Jan 8  | Introduction to Sequential Decision Making | FRL 1 & 2 |  | Jan 19th 12:59  | Jan 15 12:59  |
-| 2    | Jan 15 | Markov Decision Processes |  FRL 3  |  |  | Jan 22 12:59  |
-| 3    | Jan 22 | Value Functions and Bellman Equations | FRL 4 |  |   | Jan 29 12:59  |
-| 4    | Jan 29 | Dynamic Programming | FRL 5 |  | Due Feb 9 12:59 | Feb  5 12:59 |
-| 5    | Feb 5  | Monte Carlo Methods for Prediction and Control | SLM 1 & 2 | | Feb 16 12:59 | Feb 12 12:59 |
-| 6    | Feb 12 | Temporal Difference Learning Methods for Prediction | SLM 3 | *Mid Term* Feb 16 | Mar 1 12:59 | Feb 26 12:59 |
-| 7    | Feb 19 | Reading Week |  |  |  |  |
-| 8    | Feb 26 | Temporal Difference Learning Methods for Control | SLM 4 |  | Mar 8 12:59 | Mar 4 12:59 |
-| 9    | Mar 4  | Planning Learning and Acting | SLM 5 |  | Mar 15 12:59 | Mar 11 12:59 |
-| 10   | Mar 11 | On-Policy Prediction withg Approximation | PC 1 & 2 |  | Mar 22 12:59 | Mar 18 12:59 |
-| 11   | Mar 18 | Constructing Features for Prediction | PC 3 |  | Mar 29 12:59 | Mar 25 12:59 |
-| 12   | Mar 25 | Control with Approximation | PC 4 |  |  Apr 5 12:59 | Apr 1 12:59 |
-| 13   | Apr 1  | Policy Gradient | PC 5 |  | Apr 12 12:59 | Apr 8 12:59 |
-| 14   | Apr 8  | Wrap Up and Review |  |  |  |  |
-|      | Apr 25 | Final Exam 9:00 |  |  |  |  |
+| 1    | Mon, Jan 8  | Course Overview | | |
+| 1    | Wed, Jan 10  | Background Review: Probability Statistics, Linear Algebra, and Calculus | | |
+| 1    | Fri, Jan 12  | Fundamentals of RL: An Introduction to Sequential Decision-making | Quiz: Sequential decision-making| |
+| 2    | Mon, Jan 15  | Fundamentals of RL: An Introduction to Sequential Decision-making | | |
+| 2    | Wed, Jan 15  | Fundamentals of RL: An Introduction to Sequential Decision-making | Program. Assignment (Bandits and Exploration / Exploitation)| |
+| 2    | Fri, Jan 17  | Fundamentals of RL: Markov Decision Processes (MDPs) | Quiz: MDPs| |
+
+
