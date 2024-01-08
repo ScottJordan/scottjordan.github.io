@@ -15,6 +15,8 @@ For this course we will be use Coursera as the main platform for the course. You
 
 You need to make sure you sign up for the private version of the course that corresponds to this session and not the public version of the course. Any work done on the public version of the course will not be transferred to the private version of the course. Please check with the instructor or TAs if you are unsure if you are on the correct version of the course.
 
+Submit questions for in class answers [here](https://forms.gle/dN5omnbhDfDhXqXf6)
+
 Coursera Courses:
 
 1. [Funamentals of Reinforcement Learning](https://coursera.org/learn/fundamentals-of-reinforcement-learning)
