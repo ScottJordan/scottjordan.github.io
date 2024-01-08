@@ -9,7 +9,7 @@ nav_order: 5
 
 Class is held MWF 13:00-13:50 in CCIS 1-160.
 
-[syllabus](/assets/CMPUT365-W24/syllabus.pdf)
+[syllabus]({{ site.url }}/assets/courses/CMPUT365-W24/syllabus.pdf)
 
 For this course we will be use Coursera as the main platform for the course. You will need to sign up for the course on Coursera and complete the assignments and quizzes there. The course will be split into three courera courses, each with its own modules, a set of assignments, and a set of quizzes. The assignments and quizzes will be completed on Coursera. 
 
@@ -17,9 +17,9 @@ You need to make sure you sign up for the private version of the course that cor
 
 Coursera Courses:
 
-1. [Funamentals of Reinforcement Learning](tbd) (FRL)
-2. Sample-based Learning Methods (SLM)
-3. Prediction and Control with Function Approximation (PC)
+1. [Funamentals of Reinforcement Learning](https://coursera.org/learn/fundamentals-of-reinforcement-learning)
+2. Sample-based Learning Methods 
+3. Prediction and Control with Function Approximation
 
 Instruction Team:
 
