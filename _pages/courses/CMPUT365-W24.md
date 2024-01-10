@@ -58,8 +58,8 @@ Course Calendar (will be updated as the course progresses):
 
 | Week | Date | Topic | Deadlines | Misc |  
 | ---: |      | :---  | ---     | ---      | ---        |  --- |
-| 1    | Mon, Jan 8  | Course Overview | | |
-| 1    | Wed, Jan 10  | Background Review: Probability Statistics, Linear Algebra, and Calculus | | |
+| 1    | Mon, Jan 8  | Course Overview | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_1_overview.pdf)|
+| 1    | Wed, Jan 10  | Background Review: Probability Statistics, Linear Algebra, and Calculus | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/lecture_2_review.pdf) |
 | 1    | Fri, Jan 12  | Fundamentals of RL: An Introduction to Sequential Decision-making | Quiz: Sequential decision-making| |
 | 2    | Mon, Jan 15  | Fundamentals of RL: An Introduction to Sequential Decision-making | | |
 | 2    | Wed, Jan 15  | Fundamentals of RL: An Introduction to Sequential Decision-making | Program. Assignment (Bandits and Exploration / Exploitation)| |
