@@ -60,7 +60,7 @@ Course Calendar (will be updated as the course progresses):
 | ---: |      | :---  | ---     | ---      | ---        |  --- |
 | 1    | Mon, Jan 8  | Course Overview | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_1_overview.pdf)|
 | 1    | Wed, Jan 10  | Background Review: Probability Statistics, Linear Algebra, and Calculus | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/lecture_2_review.pdf) |
-| 1    | Fri, Jan 12  | Fundamentals of RL: An Introduction to Sequential Decision-making | Quiz: Sequential decision-making| |
+| 1    | Fri, Jan 12  | Fundamentals of RL: An Introduction to Sequential Decision-making | Quiz: Sequential decision-making| [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_3_Bandits1.pdf) [Notebook]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture3_Bandits1.jl)|
 | 2    | Mon, Jan 15  | Fundamentals of RL: An Introduction to Sequential Decision-making | | |
 | 2    | Wed, Jan 15  | Fundamentals of RL: An Introduction to Sequential Decision-making | Program. Assignment (Bandits and Exploration / Exploitation)| |
 | 2    | Fri, Jan 17  | Fundamentals of RL: Markov Decision Processes (MDPs) | Quiz: MDPs| |
