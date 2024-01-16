@@ -43,7 +43,7 @@ Instruction Team:
 
 - Blanca Miller <br>
   Email: cmput365 <at> ualberta <dot> ca <br>
-  Office hours: Tu 14:00-15:00 in CAB 313 
+  Office hours: Tu 15:00-17:00 in CAB 313 
 
 - David Szepesvari <br>
   Email: cmput365 <at> ualberta <dot> ca <br>
