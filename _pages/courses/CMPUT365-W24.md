@@ -67,5 +67,8 @@ Course Calendar (will be updated as the course progresses):
 | 3    | Mon, Jan 22  | Fundamentals of RL: Markov Decision Processes (MDPs) | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_7_MDP2.pdf)|
 | 3    | Wed, Jan 24  | Fundamentals of RL: Markov Decision Processes (MDPs) | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_8_MDP3.pdf)|
 | 3    | Fri, Jan 26  | Fundamentals of RL: Value Functions and Bellman Equations | Quiz: Value Functions and Bellman Equations 1| [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_9_policy_value.pdf)|
+| 4    | Mon, Jan 29  | Fundamentals of RL: Value Functions and Bellman Equations | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_10_BellmanEquations.pdf)|
+| 4    | Wed, Jan 31  | Fundamentals of RL: Value Functions and Bellman Equations | Quiz: Value Functions and Bellman Equations 2 | |
+| 4    | Fri, Feb 2  | Fundamentals of RL: Dynamic Programming | Quiz: Dynamic Programming | |
 
 
