@@ -70,7 +70,7 @@ Course Calendar (will be updated as the course progresses):
 | 4    | Mon, Jan 29  | Fundamentals of RL: Value Functions and Bellman Equations | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_10_BellmanEquations.pdf)|
 | 4    | Wed, Jan 31  | Fundamentals of RL: Value Functions and Bellman Equations | Quiz: Value Functions and Bellman Equations 2 | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_11_Exercises.pdf) |
 | 4    | Fri, Feb 2  | Fundamentals of RL: Dynamic Programming | Quiz: Dynamic Programming | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_12_DynamicProgramming1.pdf)|
-| 5    | Mon, Feb 5  | Fundamentals of RL: Dynamic Programming | | |
+| 5    | Mon, Feb 5  | Fundamentals of RL: Dynamic Programming | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_13_DynamicProgramming2.pdf)|
 | 5    | Wed, Feb 7  | Fundamentals of RL: Dynamic Programming | Progamming Assignment: Optimal Policies with Dynamic Programming | |
 | 5    | Fri, Feb 9  | Mid Term Review | | |
 
