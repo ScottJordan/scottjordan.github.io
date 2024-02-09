@@ -71,8 +71,8 @@ Course Calendar (will be updated as the course progresses):
 | 4    | Wed, Jan 31  | Fundamentals of RL: Value Functions and Bellman Equations | Quiz: Value Functions and Bellman Equations 2 | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_11_Exercises.pdf) |
 | 4    | Fri, Feb 2  | Fundamentals of RL: Dynamic Programming | Quiz: Dynamic Programming | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_12_DynamicProgramming1.pdf)|
 | 5    | Mon, Feb 5  | Fundamentals of RL: Dynamic Programming | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_13_DynamicProgramming2.pdf)|
-| 5    | Wed, Feb 7  | Fundamentals of RL: Dynamic Programming | Progamming Assignment: Optimal Policies with Dynamic Programming | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_14_DynamicProgramming4.pdf)|
-| 5    | Fri, Feb 9  | Midterm Review | | |
+| 5    | Wed, Feb 7  | Fundamentals of RL: Dynamic Programming | Progamming Assignment: Optimal Policies with Dynamic Programming | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_14_DynamicProgramming3.pdf)|
+| 5    | Fri, Feb 9  | Midterm Review | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_15_MidtermReview.pdf) |
 | 6    | Mon, Feb 12  | Midterm | | |
 | 6    | Wed, Feb 14  | Sample-Based Methods: Monte-Carlo Methods |  | |
 | 6    | Fri, Feb 16  | Sample-Based Methods: Monte-Carlo Methods | Quiz: Off-Policy Monte-Carlo| |
