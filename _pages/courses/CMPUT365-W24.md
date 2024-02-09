@@ -20,8 +20,8 @@ Submit questions for in class answers [here](https://forms.gle/dN5omnbhDfDhXqXf6
 Coursera Courses:
 
 1. [Funamentals of Reinforcement Learning](https://coursera.org/learn/fundamentals-of-reinforcement-learning)
-2. Sample-based Learning Methods 
-3. Prediction and Control with Function Approximation
+2. [Sample-based Learning Methods](https://coursera.org/learn/sample-based-learning-methods)
+3. [Prediction and Control with Function Approximation](https://coursera.org/learn/prediction-control-function-approximation)
 
 Instruction Team:
 
