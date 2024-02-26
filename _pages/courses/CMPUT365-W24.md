@@ -75,6 +75,9 @@ Course Calendar (will be updated as the course progresses):
 | 5    | Fri, Feb 9  | Midterm Review | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_15_MidtermReview.pdf) |
 | 6    | Mon, Feb 12  | Midterm | | |
 | 6    | Wed, Feb 14  | Sample-Based Methods: Monte-Carlo Methods |  | |
-| 6    | Fri, Feb 16  | Sample-Based Methods: Monte-Carlo Methods | Quiz: Off-Policy Monte-Carlo| |
+| 6    | Fri, Feb 16  | Sample-Based Methods: Monte-Carlo Methods | Quiz: Off-Policy Monte-Carlo| [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_17_MonteCarloMethods1.pdf)|
+| 7    | Mon, Feb 26  | Sample-Based Methods: Monte-Carlo Methods | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_18_MonteCarloOffPolicy.pdf)|
+| 7    | Wed, Feb 28  | Sample-Based Methods: TD for Prediction | Quiz: Advantages of Temporal Difference Learning | |
+| 7    | Fri, Mar 1  | Sample-Based Methods: TD for Predictioin | |
 
 
