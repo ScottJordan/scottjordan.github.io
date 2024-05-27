@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as a Postdoc at the University of Alberta working with Martha White. 
+Started as a Postdoc at the University of Alberta working with Martha and Adam White. 
