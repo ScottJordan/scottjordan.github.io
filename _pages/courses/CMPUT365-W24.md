@@ -9,13 +9,13 @@ nav_order: 5
 
 Class is held MWF 13:00-13:50 in CCIS 1-160.
 
-[syllabus]({{ site.url }}/assets/courses/CMPUT365-W24/syllabus.pdf)
+<!-- [syllabus]({{ site.url }}/assets/courses/CMPUT365-W24/syllabus.pdf) -->
 
 For this course we will be use Coursera as the main platform for the course. You will need to sign up for the course on Coursera and complete the assignments and quizzes there. The course will be split into three courera courses, each with its own modules, a set of assignments, and a set of quizzes. The assignments and quizzes will be completed on Coursera. 
 
 You need to make sure you sign up for the private version of the course that corresponds to this session and not the public version of the course. Any work done on the public version of the course will not be transferred to the private version of the course. Please check with the instructor or TAs if you are unsure if you are on the correct version of the course.
 
-Submit questions for in class answers [here](https://forms.gle/dN5omnbhDfDhXqXf6)
+<!-- Submit questions for in class answers [here](https://forms.gle/dN5omnbhDfDhXqXf6) -->
 
 Coursera Courses:
 
@@ -53,7 +53,7 @@ Instruction Team:
 
 
 
-Course Calendar (will be updated as the course progresses):
+<!-- Course Calendar (will be updated as the course progresses):
 
 
 | Week | Date | Topic | Deadlines | Misc |  
@@ -79,5 +79,8 @@ Course Calendar (will be updated as the course progresses):
 | 7    | Mon, Feb 26  | Sample-Based Methods: Monte-Carlo Methods | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_18_MonteCarloOffPolicy.pdf)|
 | 7    | Wed, Feb 28  | Sample-Based Methods: TD for Prediction | Quiz: Advantages of Temporal Difference Learning | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_19_TDprediction.pdf)|
 | 7    | Fri, Mar 1  | Sample-Based Methods: TD for Prediction | |
+| 8    | Mon, Mar 4  | Sample-Based Methods: Multi-step TD | | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_20_MultiStepTD.pdf)|
+| 8    | Wed, Mar 6  | Sample-Based Methods: TD Lambda | Quiz: Advantages of Temporal Difference Learning | [Slides]({{ site.url }}/assets/courses/CMPUT365-W24/Lecture_19_TDprediction.pdf)|
+| 8    | Fri, Mar 8  | Sample-Based Methods: TD for Prediction | | -->
 
 

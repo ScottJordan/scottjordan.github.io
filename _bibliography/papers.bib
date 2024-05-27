@@ -228,3 +228,30 @@ author = {{Jordan}, Scott M. and Chandak, Yash and Zhang, Mengxue and {Cohen}, D
   abstract     = {In this paper, we introduce a fresh perspective on the challenges of credit assignment and policy evaluation. First, we delve into the nuances of eligibility traces and explore instances where their updates may result in unexpected credit assignment to preceding states. From this investigation emerges the concept of a novel value function, which we refer to as the \emph{bidirectional value function}. Unlike traditional state value functions, bidirectional value functions account for both future expected returns (rewards anticipated from the current state onward) and past expected returns (cumulative rewards from the episode's start to the present). We derive principled update equations to learn this value function and, through experimentation, demonstrate its efficacy in enhancing the process of policy evaluation. In particular, our results indicate that the proposed learning approach can, in certain challenging contexts, perform policy evaluation more rapidly than TD(λ) -- a method that learns forward value functions, vπ, \emph{directly}. Overall, our findings present a new perspective on eligibility traces and potential advantages associated with the novel value function it inspires, especially for policy evaluation. },
   abbr         = {AAAI},
 }
+@misc{lo2024goalspace,
+      title={Goal-Space Planning with Subgoal Models}, 
+      author={Chunlok Lo and Kevin Roice and Parham Mohammad Panahi and Scott M. Jordan and Adam White and Gabor Mihucz and Farzane Aminmansour and Martha White},
+      year={2024},
+      eprint={2206.02902},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      arxiv        = {2206.02902},
+      abstract     = {This paper investigates a new approach to model-based reinforcement learning using background planning: mixing (approximate) dynamic programming updates and model-free updates, similar to the Dyna architecture. Background planning with learned models is often worse than model-free alternatives, such as Double DQN, even though the former uses significantly more memory and computation. The fundamental problem is that learned models can be inaccurate and often generate invalid states, especially when iterated many steps. In this paper, we avoid this limitation by constraining background planning to a set of (abstract) subgoals and learning only local, subgoal-conditioned models. This goal-space planning (GSP) approach is more computationally efficient, naturally incorporates temporal abstraction for faster long-horizon planning and avoids learning the transition dynamics entirely. We show that our GSP algorithm can propagate value from an abstract space in a manner that helps a variety of base learners learn significantly faster in different domains.},
+}
+@inproceedings{jordan2024sci,
+  title={Position: Benchmarking in Reinforcement Learnings is limited and Alternatives are Needed},
+  author={{Jordan}, Scott M. and da Silva, Bruno Castro and White, Martha and White, Adam and {Thomas}, Philip S.},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning, {ICML}},
+  year = {2024},
+  abstract = {Novel reinforcement learning algorithms, or improvements on existing ones, are commonly justified by evaluating their performance on benchmark environments and are compared to an ever-changing set of standard algorithms. However, despite numerous calls for improvements, experimental practices continue to produce misleading or unsupported claims. One reason for the ongoing substandard practices is that conducting rigorous benchmarking experiments requires substantial computational time. This work investigates the sources of increased computation costs in rigorous experiment designs. We show that conducting rigorous performance benchmarks will likely have computational costs that are often prohibitive. As a result, we argue for using an additional experimentation paradigm to overcome the limitations of benchmarking.},
+  abbr        = {ICML},
+}
+
+@inproceedings{jordan2024pg,
+  title={The Cliff of Overcommitment with Policy Gradient Step Sizes},
+  author={{Jordan}, Scott M. and Neumann, Samuel and Kostas James E. and White, Adam and {Thomas}, Philip S.},
+  booktitle = {Proceedings of the 1st Reinforcement Learning Conference, {RLC}},
+  year = {2024},
+  abstract = {Policy gradient methods form the basis for many successful reinforcement learning algorithms, but their success depends heavily on selecting an appropriate step size. While many adaptive step size methods exist, none are both free of hyperparameter tuning and able to converge quickly to an optimal policy. Moreover, it is unclear why these methods are insufficient, so we aim to uncover what needs to be addressed to make an effective adaptive step size for policy gradient methods. Through extensive empirical investigation, the results reveal that when the step size is above optimal, the policy overcommits to sub-optimal actions leading to longer training times. These findings suggest the need for a new kind of policy optimization that can prevent or recover from entropy collapses.},
+  abbr        = {RLC},
+}
