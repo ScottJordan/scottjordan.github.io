@@ -15,7 +15,7 @@
 
 @misc{kostas2023coascaled,
       title={Coagent Networks: Generalized and Scaled}, 
-      author={James E. Kostas and Scott M. Jordan and Yash Chandak and Georgios Theocharous and Dhawal Gupta and Martha White and Bruno Castro da Silva and Philip S. Thomas},
+      author={James E. Kostas and Scott M. Jordan and Yash Chandak and Georgios Theocharous and Dhawal Gupta and Martha White and Bruno Castro {da} Silva and Philip S. Thomas},
       year={2023},
       eprint={2305.09838},
       archivePrefix={arXiv},
@@ -201,7 +201,7 @@ author = {{Jordan}, Scott M. and Chandak, Yash and Zhang, Mengxue and {Cohen}, D
 
 @inproceedings{gupta2024behavior,
   title={Behavior Alignment via Reward Function Optimization},
-  author={Gupta, Dhawal and Chandak, Yash and Jordan, Scott M and Thomas, Philip S and da Silva, Bruno Castro},
+  author={Gupta, Dhawal and Chandak, Yash and Jordan, Scott M. and Thomas, Philip S. and {da} Silva, Bruno Castro},
   booktitle = {Proceedings of the Thirty-seventh Conference on Neural Information Process Systems, {NeurIPS}},
   year={2023},
   arxiv        = {2310.19007},
@@ -211,12 +211,13 @@ author = {{Jordan}, Scott M. and Chandak, Yash and Zhang, Mengxue and {Cohen}, D
 }
 @inproceedings{gupta2024bidirection,
   title={From Past to Future: Rethinking Eligibility Traces},
-  author={Gupta, Dhawal and Jordan, Scott M and Chaudhari, Shreyas and Liu, Bo and Thomas, Philip S and da Silva, Bruno Castro},
+  author={Gupta, Dhawal and Jordan, Scott M. and Chaudhari, Shreyas and Liu, Bo and Thomas, Philip S. and {da} Silva, Bruno Castro},
     booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2024},
   arxiv        = {2312.12972},
   abstract     = {In this paper, we introduce a fresh perspective on the challenges of credit assignment and policy evaluation. First, we delve into the nuances of eligibility traces and explore instances where their updates may result in unexpected credit assignment to preceding states. From this investigation emerges the concept of a novel value function, which we refer to as the \emph{bidirectional value function}. Unlike traditional state value functions, bidirectional value functions account for both future expected returns (rewards anticipated from the current state onward) and past expected returns (cumulative rewards from the episode's start to the present). We derive principled update equations to learn this value function and, through experimentation, demonstrate its efficacy in enhancing the process of policy evaluation. In particular, our results indicate that the proposed learning approach can, in certain challenging contexts, perform policy evaluation more rapidly than TD(λ) -- a method that learns forward value functions, vπ, \emph{directly}. Overall, our findings present a new perspective on eligibility traces and potential advantages associated with the novel value function it inspires, especially for policy evaluation. },
   abbr         = {AAAI},
+  html         = {https://ojs.aaai.org/index.php/AAAI/article/view/29115},
 }
 
 @misc{lo2024goalspace,
@@ -242,7 +243,7 @@ author = {{Jordan}, Scott M. and Chandak, Yash and Zhang, Mengxue and {Cohen}, D
 }
 @inproceedings{jordan2024sci,
   title={Position: Benchmarking is Limited in Reinforcement Learning Research},
-  author={{Jordan}, Scott M. and White, Adam and da Silva, Bruno Castro and White, Martha and {Thomas}, Philip S.},
+  author={{Jordan}, Scott M. and White, Adam and {da} Silva, Bruno Castro and White, Martha and {Thomas}, Philip S.},
   booktitle = {Proceedings of the 41st International Conference on Machine Learning, {ICML}},
   year = {2024},
   abstract = {Novel reinforcement learning algorithms, or improvements on existing ones, are commonly justified by evaluating their performance on benchmark environments and are compared to an ever-changing set of standard algorithms. However, despite numerous calls for improvements, experimental practices continue to produce misleading or unsupported claims. One reason for the ongoing substandard practices is that conducting rigorous benchmarking experiments requires substantial computational time. This work investigates the sources of increased computation costs in rigorous experiment designs. We show that conducting rigorous performance benchmarks will likely have computational costs that are often prohibitive. As a result, we argue for using an additional experimentation paradigm to overcome the limitations of benchmarking.},
