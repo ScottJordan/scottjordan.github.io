@@ -6,7 +6,7 @@ subtitle: Visiting Faculty at the <a href='https://www.cs.pitt.edu/'>University 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: true # crops the image to make it circular
   address: #>
     # <p>555 your office number</p>
